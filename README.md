@@ -8,10 +8,9 @@ Embark on a journey of code adventures, where each line of Java brings you close
 
 ## Features 🌟
 
-- **Data Structures:** Uncover the secrets of ancient data structures, hidden in the depths of Java.
 - **Algorithms:** Conquer challenges with powerful algorithms that are sure to impress even the toughest code gurus.
+- **Data Structures:** Uncover the secrets of ancient data structures, hidden in the depths of Java.
 - **Usage Examples:** Practical examples to guide you through the mystical realms of code sorcery.
-- **Contributions:** Join the fellowship of contributors! If you've brewed up some coding potions or crafted new spells (implementations or algorithms), share them with the community. 🧙‍♀️📜
 
 ## Getting Started 🚦
 
