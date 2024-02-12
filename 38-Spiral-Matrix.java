@@ -20,7 +20,7 @@ package com.rishi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SpiralOrder {
+public class SpiralMatrix {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 2, 3, 4},
