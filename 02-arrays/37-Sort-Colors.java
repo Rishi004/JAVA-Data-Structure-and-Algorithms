@@ -35,6 +35,6 @@ public class SortColors {
                 i++;
             }
         }
-        System.out.println(Arrays.toString(numerous));
+        System.out.println(Arrays.toString(nums));
     }
 }
