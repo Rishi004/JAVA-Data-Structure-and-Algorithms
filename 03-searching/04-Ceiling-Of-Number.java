@@ -3,7 +3,7 @@
 
 // Example 1:
   // Input: nums = [2, 3, 4, 9, 11, 16, 18], target = 15
-  // Output: 4
+  // Output: 5
 
 // Example 2:
   // Input: nums = [1,3,5,6], target = 2
