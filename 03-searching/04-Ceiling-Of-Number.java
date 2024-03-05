@@ -23,6 +23,10 @@ public class CeilNum {
     }
 
     private static int findCeil(int[] nums, int target) {
+        if (target > nums[nums.length - 1]) {
+            return -1;
+        }
+      
         int start = 0;
         int end = nums.length - 1;
         while (start <= end) {
