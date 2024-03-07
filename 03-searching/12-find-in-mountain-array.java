@@ -1,5 +1,4 @@
 // (1095)
-// (This problem is an interactive problem.)
 // You may recall that an array arr is a mountain array if and only if:
 //   1. arr.length >= 3
 //   2. There exists some i with 0 < i < arr.length - 1 such that:
