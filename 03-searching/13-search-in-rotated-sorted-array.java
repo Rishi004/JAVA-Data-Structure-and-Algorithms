@@ -54,9 +54,9 @@ public class SearchInRotatedSortedArray {
             } else if (mid > start && nums[mid] < nums[mid - 1]) {
                 return mid - 1;
             } else if (nums[mid] <= nums[start]) {
-                start = mid + 1;
-            } else {
                 end = mid - 1;
+            } else {
+                start = mid + 1;
             }
         }
 
