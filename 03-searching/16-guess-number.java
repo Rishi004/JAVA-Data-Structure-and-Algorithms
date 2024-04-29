@@ -22,7 +22,8 @@
   // Output: 1
 
 
-// Solution-----
+// SOLUTION-----
+
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
