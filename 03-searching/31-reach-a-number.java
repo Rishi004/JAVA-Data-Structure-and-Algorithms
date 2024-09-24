@@ -1,4 +1,4 @@
-// 754
+// (754)
 // You are standing at position 0 on an infinite number line. There is a destination at position target.
 
 // You can make some number of moves numMoves so that:
