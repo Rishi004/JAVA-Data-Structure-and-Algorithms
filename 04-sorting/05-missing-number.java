@@ -1,6 +1,7 @@
 // (268)
 // (Asked in Amazon)
 // Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+// You must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.
 
 // Example 1:
   // Input: nums = [3,0,1]
