@@ -30,16 +30,14 @@ class SetMismatch {
     static int[] findErrorNums(int[] nums) {
         cyclicSort(nums);
 
-        int[] out = {-1, -1};
 
         for (int i = 0; i < nums.length; i++) {
             if (i != nums[i] - 1) {
-                out[0] = nums[i];
-                out[1] = i + 1;
+                return new int[]{nums[i], i + 1};
             }
         }
 
-        return out;
+        return new int[]{-1, -1};
     }
 
     static void cyclicSort(int[] arr) {
