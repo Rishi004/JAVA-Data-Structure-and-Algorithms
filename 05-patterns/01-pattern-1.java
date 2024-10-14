@@ -4,6 +4,7 @@
 // *****
 // *****
 
+
 package com.rishi.patterns;
 
 public class Pattern1 {
