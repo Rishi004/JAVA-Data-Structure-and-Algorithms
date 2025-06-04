@@ -36,5 +36,39 @@ public class Main {
 }
 
 
+// --------------------------- SOLUTION 02 ----------------------------
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(permutation("naruto", "rutona"));
+    }
+
+    private static boolean permutation(String str1, String str2) {
+
+        if (str1.length() != str2.length()) return false;
+
+        int[] valSet = new int[128];
+        for (char c : str1.toCharArray()) {
+            valSet[c]++;
+        }
+
+        for (int i = 0; i < str2.length(); i++) {
+            int c = str2.charAt(i);
+            valSet[c]--;
+            if (valSet[c] < 0) return false;
+        }
+
+        return true;
+    }
+
+}
+
+
+
+
+
+
+
 
 
