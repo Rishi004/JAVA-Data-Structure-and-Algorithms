@@ -8,6 +8,47 @@
   // pale, bake  -> false
 
 
+// ------------------------------- OPTIMIZED SOLUTION -------------------------------
+public class OneWay {
+    public static void main(String[] args) {
+        String str1 = "pale";
+        String str2 = "bake";
+
+        System.out.println(oneWay(str1, str2));
+    }
+
+    private static boolean oneWay(String str1, String str2) {
+
+        if (Math.abs(str1.length() - str2.length()) > 1) {
+            return false;
+        }
+
+        int index1 = 0;
+        int index2 = 0;
+        boolean isDifferenceExist = false;
+        String shorter = str1.length() < str2.length() ? str1 : str2;
+        String longer = str1.length() < str2.length() ? str2 : str1;
+
+        while (index1 < shorter.length() && index2 < longer.length()) {
+            if (shorter.charAt(index1) != longer.charAt(index2)) {
+                if (isDifferenceExist) {
+                    return false;
+                }
+                isDifferenceExist = true;
+                if (shorter.length() == longer.length()) {
+                    index1++;
+                }
+            } else {
+                index1++;
+            }
+            index2++;
+        }
+
+        return true;
+    }
+}
+
+
 // ------------------------------- BRUTE FORCE SOLUTION -------------------------------
 public class OneWay {
     public static void main(String[] args) {
