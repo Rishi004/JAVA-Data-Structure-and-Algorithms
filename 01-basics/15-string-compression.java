@@ -5,6 +5,14 @@
 
 
 // ------------------------------- OPTIMIZED SOLUTION -------------------------------
+// This will be more optimal in cases where we don't have a large number of repeating characters.
+
+// One other benefit of this approach is that we can initialize StringBuilder to its necessary capacity up-front.
+// StringBuilder will (behind the scene) need to double its capacity every time it hits capacity.
+// The capacity could be double what we ultimately need.
+
+// The downside of this is that it causes a second loop through the characters and also adds nearly duplicated code.
+
 public class StringCompression {
 
     public static void main(String[] args) {
